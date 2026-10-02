@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>തസ്കിയ സമ്മേളനം - ഫോട്ടോ ഫ്രെയിം മേക്കർ</title>
+    <title>സിറാജ് ഡേ - ഫോട്ടോ ഫ്രെയിം </title>
     <!-- Cropper.js CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.min.css">
     <style>
@@ -105,7 +105,7 @@
 <body>
 
 <div class="container">
-    <h2>തസ്കിയ സമ്മേളനം ഫോട്ടോ ഫ്രെയിം</h2>
+    <h2>സിറാജ് ഡേ - ഫോട്ടോ ഫ്രെയിം</h2>
     
     <div class="frame-box" id="mainBox">
         <div class="placeholder-text" id="placeholder">നിങ്ങളുടെ ഫോട്ടോ സെലക്ട് ചെയ്യുക</div>
@@ -136,7 +136,7 @@
     let photoCropper = null;
     let frameImageObj = new Image();
     frameImageObj.crossOrigin = "anonymous";
-    frameImageObj.src = "frame.png"; // ഫ്രെയിമിന്റെ ഫയൽ പേര്
+    frameImageObj.src = "siraj.png"; // ഫ്രെയിമിന്റെ ഫയൽ പേര്
 
     const customAspect = 2121 / 3000;
 
@@ -200,7 +200,7 @@
         }
 
         const link = document.createElement('a');
-        link.download = 'tazkiya-sammelanam-photo.png';
+        link.download = 'siraj-sammelanam-photo.png';
         link.href = canvas.toDataURL('image/png');
         link.click();
 
